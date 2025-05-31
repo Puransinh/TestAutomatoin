@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-31T14:24:29 IST" name="Suite" finished-at="2025-05-31T14:24:56 IST" duration-ms="27634">
+    <groups>
+    </groups>
+    <test started-at="2025-05-31T14:24:29 IST" name="Test" finished-at="2025-05-31T14:24:56 IST" duration-ms="27634">
+      <class name="puransinh.main.Main">
+        <test-method is-config="true" signature="loginPage()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:29 IST" name="loginPage" finished-at="2025-05-31T14:24:34 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="cartdetails(java.util.HashMap)[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:34 IST" name="cartdetails" data-provider="getproductname" finished-at="2025-05-31T14:24:36 IST" duration-ms="2083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=Sauce Labs Backpack, password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartdetails -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:36 IST" name="closeDriver" finished-at="2025-05-31T14:24:37 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="loginPage()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:37 IST" name="loginPage" finished-at="2025-05-31T14:24:42 IST" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="checkouttest(java.util.HashMap)[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:42 IST" name="checkouttest" data-provider="getproductname" finished-at="2025-05-31T14:24:48 IST" duration-ms="5909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=Sauce Labs Backpack, password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:48 IST" name="closeDriver" finished-at="2025-05-31T14:24:49 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="loginPage()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:49 IST" name="loginPage" finished-at="2025-05-31T14:24:54 IST" duration-ms="4678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:54 IST" name="loginTest" data-provider="getproductname" finished-at="2025-05-31T14:24:55 IST" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=Sauce Labs Backpack, password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:puransinh.main.Main@4afcd809]" started-at="2025-05-31T14:24:55 IST" name="closeDriver" finished-at="2025-05-31T14:24:56 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- puransinh.main.Main -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
